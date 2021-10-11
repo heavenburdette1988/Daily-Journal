@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>NewForce</title>
+        <link rel="stylesheet" href="./styles/main.css">
+    </head>
+    
+    <body>
+        <header></header>
+        <main id="container">
+            <h2>Daily Journal</h2>
+            <form action="">
+                <fieldset>
+                    <label for="journalDate">Date of Entry</label>
+                    <input type="date" name="journalDate" id="journalDate">
+                </fieldset>
+            </form>
+            <form>
+                <fieldset>
+                    <label>Concepts Covered</label>
+                    <input type="text">
+                </fieldset>
+            </form>
+            <form>
+                <fieldset>
+                    <label>Journal Entry</label>
+                    <textarea type="text"></textarea>
+                    </fieldset>
+                </fieldset>
+            </form>
+            <form>
+                <fieldset>
+                    <label>Mood of the day</label>
+                    <select id="mood">
+                        <option value="sad">Sad</option>
+                        <option value="tired">Tired</option>
+                        <option value="happy">Happy</option>
+                        <option value="mad">Mad</option>
+                        <option value="broken">broken</option>
+                        <option value="confident">Confident</option>
+                        <option value="hopeful">Hopeful</option>
+                        <option value="proud">Proud</option>
+                    </select>
+                </fieldset>
+                <button type="button">Record Journal Entry</button>
+            </form>
+            <section>
+                <h1></h1>
+            </section>
+        </main>
+            
+        <script type="module" src="./scripts/main.js"></script>
+        <footer></footer>
+    </body>
+</html>
