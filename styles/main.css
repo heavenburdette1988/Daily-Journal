@@ -8,6 +8,11 @@ input,
 select, */
 
 body {
+	
+	color: rgb(245, 245, 245);
+	background-image: url("http://simplefreethemes.com/wp-content/uploads/2017/04/Beautiful-Norway.jpg");
+	background-size: 100vw;
+	background-color: rgb(98, 162, 167);
 	flex-direction: column;
 }
 
@@ -31,9 +36,10 @@ h1,h2,h3,h4,h5,h6 {
   letter-spacing: 2px;
 }
 
-li {
+section {
 	flex-direction: column;
 	display: flex;
 	border: solid black 1px;
+	background-color: rgb(130, 132, 238);
 }
 
