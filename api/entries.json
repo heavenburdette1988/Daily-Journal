@@ -2,8 +2,8 @@
   "entries": [
     {
       "id": 1,
-      "concept": "Array Method",
-      "date": "10/27/21",
+      "date": "2021-12-24",
+      "concept": "Array Method*****",
       "entry": "We learned about arrays.",
       "mood": "happy"
     },
@@ -41,6 +41,13 @@
       "entry": "APIII",
       "mood": "happy",
       "id": 6
+    },
+    {
+      "concept": "Learned how to edit",
+      "date": "2021-11-11",
+      "entry": "Today we finished learning CRUD by learning how to edit. ",
+      "mood": "happy",
+      "id": 7
     }
   ]
 }

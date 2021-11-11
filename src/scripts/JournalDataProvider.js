@@ -27,6 +27,17 @@ export const saveEntries = (entries) => {
     .then(getEntries) // After we add a note, get them all again so our new note appears in our collection
 }
 
+export const updateEntry = entry => {
+
+    return fetch(`http://localhost:8088/entries/${entry.id}`, {
+        method: "PUT",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(entry)
+    })
+
+}
 /*
     You export a function that provides a version of the
     raw data in the format that you want

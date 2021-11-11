@@ -4,6 +4,8 @@ import { EntryListComponet } from './JournalEntryList.js'
 import { JournalEntryComponent } from './JournalEntry.js'
 import { getEntries } from './JournalDataProvider.js'
 import { JournalForm } from "./JournalForm.js"
+import { EntryEditForm } from './JournalEditForm.js'
+
 
 JournalForm()
 
@@ -17,3 +19,4 @@ JournalForm()
 // useJournalEntries()
 EntryListComponet()
 getEntries()
+// EntryEditForm
