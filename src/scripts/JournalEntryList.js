@@ -7,11 +7,12 @@
 import { getEntries, useJournal } from "./JournalDataProvider.js"
 import { JournalEntryComponent } from "./JournalEntry.js"
 
-
+const entryLog = document.querySelector("body")
 // DOM reference to where all entries will be rendered
-  const entryLog = document.querySelector("#container")
+
  
 export const EntryListComponet = () => {
+   
     getEntries()
     .then( () => {
       

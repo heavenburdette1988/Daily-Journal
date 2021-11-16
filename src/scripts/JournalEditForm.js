@@ -40,10 +40,11 @@ contentTarget.addEventListener("click", (event) => {
         // Send to json-server and refresh the list
         updateEntry(editedEntry)//this updates the edited note
         .then(EntryListComponet)//This redisplays the updated list 
-        console.log(EntryListComponet)
+        
         // .then(JournalForm)//this redisplays the form
 //**************************************************** */
 //Leav Note here - changes are save but redisplaying form
     }
+  
 })
 
